@@ -1,0 +1,27 @@
+#user_tools {
+	background:url(../images/bg_usertools_right.gif) right top no-repeat;
+	height:34px;
+	padding-right:9px;
+	float:right;
+}
+#user_tools span {
+	background:url(../images/bg_usertools_left.gif) left top no-repeat #000000;
+	height:34px;
+	padding-left:9px;
+	line-height: 34px;
+	font-size:10px;
+	color: #b0b0b0;
+	display:block;
+	float:right;
+}
+#user_tools a { color: #FFF; text-decoration:none; }
+#user_tools a:hover { text-decoration:underline; }
+#user_tools a.mail { background: url(../images/icon_mail_small.gif) left 2px no-repeat; padding-left:17px; margin-right:5px; }
+#user_tools a.mail:hover { text-decoration:none !important; }
+.dropdown { background:url(../images/arrow_mini_down.gif) no-repeat right 3px; padding-right:13px; }
+#colorchanger { z-index: 8; display: none; position:absolute; color: white; top:33px; right:35px; border-left:1px solid #333; border-right: 1px solid #333; background:black; width:100px;}
+#colorchanger a { padding:5px; border-bottom:1px solid #333; color: #FFF; display: block; font-size: 10px; text-decoration:none; }
+#colorchanger a:hover { background: #222; }
+#colorchanger span.redtheme { background: url(../images/bullet_red.gif) left 0px no-repeat; padding-left:16px;  }
+#colorchanger span.bluetheme { background: url(../images/bullet_blue.gif) left 0px no-repeat; padding-left:16px; }
+#colorchanger span.greentheme { background: url(../images/bullet_green.gif) left 0px no-repeat; padding-left:16px; }

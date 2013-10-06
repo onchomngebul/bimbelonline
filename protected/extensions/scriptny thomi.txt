@@ -1,0 +1,22 @@
+
+
+       <div id="divcreate">
+              <button id="add">ADD</button>
+              <div id="tempatform">
+                     <input type="hidden" id="id" value="1"/>
+              </div>
+       </div>
+       <script>
+              $("#add").click(function() {
+                     addFormField()
+              });
+              function addFormField() {
+                     var id = document.getElementById("id").value;
+                     $('#tempatform').append(
+                             '<p id="materi' + id + '">Materi ' + id + '</p><label for="kelas">*Kelas: </label><select name="kelas" id="kelas"><option id="kelasopt">kelas</option></select><label for="mapel">*Mata Pelajaran: </label><select name="mapel" id="mapel"><option id="mapelopt">mata pelajaran</option></select><label for="bab">*Bab: </label><select name="bab" id="bab"><option id="optbab">bab</option></select>');//<a href="#" onClick="$("\#materi'+id+'\").remove();">Remove</a>
+
+                     id = (id - 1) + 2;
+                     document.getElementById("id").value = id;
+              }
+
+       </script>

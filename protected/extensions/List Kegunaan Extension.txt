@@ -1,0 +1,9 @@
+appendo		: buat list data entry, tabel dinamis one to many, atau many to many
+
+bootstrap	: tampilan bootstrap dll..
+
+cleditor	: input ke tabel relasi many to many tanpa membuat modelnya
+
+mailer		: ngirim email
+
+openFlashChart	: buat garfik

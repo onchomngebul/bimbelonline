@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+ background: #d6f0fd;
+background: -moz-linear-gradient(top,  #d6f0fd 0%, #f2f9fe 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6f0fd), color-stop(100%,#f2f9fe));
+background: -webkit-linear-gradient(top,  #d6f0fd 0%,#f2f9fe 100%);
+background: -o-linear-gradient(top,  #d6f0fd 0%,#f2f9fe 100%);
+background: -ms-linear-gradient(top,  #d6f0fd 0%,#f2f9fe 100%);
+background: linear-gradient(to bottom,  #d6f0fd 0%,#f2f9fe 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f0fd', endColorstr='#f2f9fe',GradientType=0 );
+
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+/***HEADER***/
+.hdr
+{
+	height:150px;
+	width:100%;
+}
+
+.formlogin
+{	
+	padding:10px;
+	margin-top:-120px;
+	float:right;
+	height:100px;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+/***End Header***/
+
+
+/***Content***/
+.menu
+{
+position: relative;
+z-index: 15;
+}
+.sld
+{	
+	position:relative;
+	width:100%;
+	z-index: 0;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+z-index: 0;
+  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  margin-top: -30px;
+  border-bottom : 3px solid #FF6A00;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left:0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.daftar
+{	
+	margin-left:-50px;
+	position:relative;
+	z-index: 2;	
+	margin-top:-50;
+}
+.iklan
+{	
+	margin-top:50px;
+	margin-left:100px;
+	position:relative;
+}
+.span3
+{
+	font-family:Cooper std;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+/***End Content***/
+
+/***Footer***/
+.foot
+{	
+	text-align:center;
+	position:relative;
+	left:0;
+	bottom:0;
+	height:50;
+	background:#a1dbff;font-family:Cooper std
+}
+.foot a
+{
+	color:black;
+}
+.foot a:hover
+{
+	text-decoration:none;
+}
+
+
+
+
+
+/***Udah Login***/
+.profile
+{	
+	border-radius:4px;
+	position:relative;
+	z-index:20;
+	margin-top:20px;
+	float:right;
+	height:130px;
+	width:400px;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+.foto
+{	
+	margin-top:-90px;
+	margin-left:250px;
+	position:relative;
+	z-index:30;
+	float:right;
+	min-height:175px;
+	min-width:150px;
+	
+	background:white;
+}
+.foto img
+{	
+	max-width:150px;
+	min-height:175px;
+	max-height:175px;
+	min-width:150px;
+}
+.prof
+{
+	position:relative; 	
+	max-width:250;
+	font-family:Cooper std;
+}
+.prof ul
+{
+	list-style:none
+}
+.isi
+{
+	margin-top:-30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background:#ffffff
+}
+

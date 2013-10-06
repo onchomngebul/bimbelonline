@@ -1,0 +1,237 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+background: #e9e9ce;
+background: -moz-linear-gradient(top,  #e9e9ce 0%, #fcfff4 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9e9ce), color-stop(100%,#fcfff4));
+background: -webkit-linear-gradient(top,  #e9e9ce 0%,#fcfff4 100%);
+background: -o-linear-gradient(top,  #e9e9ce 0%,#fcfff4 100%);
+background: -ms-linear-gradient(top,  #e9e9ce 0%,#fcfff4 100%);
+background: linear-gradient(to bottom,  #e9e9ce 0%,#fcfff4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ce', endColorstr='#fcfff4',GradientType=0 );
+margin:auto;
+}
+.atasbanget
+{
+	width:100%;
+	height:145px;
+	position:relative;
+	
+}
+/*Login*/
+#login{margin-top:-100px;margin-right:20px;float:right;z-index:55}
+#login a{color:#c6d7ca;}
+/*Register*/
+#registerC{
+	display : none;
+}
+
+#registerB{		
+	background: rgba(0,0,0,.7);
+	position: fixed;
+	top : 0px;
+	right : 0px;
+	bottom : 0px;
+	left : 0px;
+	width : 100%;
+	height : 100%;
+	z-index : 10;
+	
+}
+
+.closereg{		
+	position:absolute;
+	top : -1px;
+	right : 0px;
+	float:right;
+	background:url(../images/guest/buttonx.png) no-repeat;
+	border : 3px solid #FF6A00;
+	height : 32px;
+}
+
+.closereg:hover{		
+	background:url(../images/guest/buttonxhover.png) no-repeat;
+}
+
+.register{
+	z-index : 20;	
+	padding : 0 30px 0 30px;	
+	
+	position:absolute;
+	left:290px;
+	top:110px;
+	border : 3px solid #FF6A00;
+	
+	border-radius: 20px 0px 20px 0px; 
+	
+	background: rgb(255,255,255);
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(231,255,171,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(231,255,171,1)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(231,255,171,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(231,255,171,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(231,255,171,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(231,255,171,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7ffab',GradientType=1 );
+}
+#closing{display:block;width:32px;height:0px;text-indent:-9999px;}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 15;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+
+  /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. 
+  margin-top: -90px;*/
+  border-bottom : 3px solid #FF6A00;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Register Content*/
+.daftar
+{
+	margin-top:-95px;
+	margin-left:400px;
+	position:relative;
+	background:url(daftar.png) 0 0 no-repeat;
+	width:342px;
+	height:50px;
+}
+.daftar:hover
+{
+	background:url(daftarhover.png) 0 0 no-repeat;
+}
+.daftar .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fo
+{
+	text-align:center;
+	font-size:12px;
+	position:relative;
+	font-family:comic sans ms;
+}
+.img1
+{
+	height:200px;
+	width:300px;
+	border-width:2px;
+	border-color:#e6951d;
+	position:relative;
+	box-shadow: 2px 5px 5px #e2ceaf;
+	border-style:solid;
+	border-width:3px;
+	background: #42E73A;
+background: -moz-linear-gradient(top,  #42E73A 0%, #6EE768 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#42E73A), color-stop(100%,#6EE768));
+background: -webkit-linear-gradient(top,  #42E73A 0%,#6EE768 100%);
+background: -o-linear-gradient(top,  #42E73A 0%,#6EE768 100%);
+background: -ms-linear-gradient(top,  #42E73A 0%,#6EE768 100%);
+background: linear-gradient(to bottom,  #42E73A 0%,#6EE768 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42E73A', endColorstr='#6EE768',GradientType=0 );
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
